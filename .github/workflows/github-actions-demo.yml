@@ -1,0 +1,11 @@
+name: GitHub Actions demo
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ghaction:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello CI/CD"
